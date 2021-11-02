@@ -12,10 +12,8 @@ async function execute_confirm(how_many){
 }	
 
 function confirm_messages(){
-		alert("dziala");
 		var element = document.getElementsByClassName("badge rounded-pill bg-primary float-end ng-star-inserted")[1];
 		var count = element.textContent;
-		execute_confirm(count);
-		
+		execute_confirm(count);	
 }
 confirm_messages();
