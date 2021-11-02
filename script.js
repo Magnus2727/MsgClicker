@@ -7,7 +7,7 @@ async function execute_confirm(how_many){
 			document.getElementsByClassName("list-group-item list-group-item-action lh-tight user-select-none unread ng-star-inserted")[0].click();
 			await sleep(150);
 			document.getElementsByClassName("btn btn-outline-success btn-sm px-lg-4 ng-star-inserted")[0].click();
-			await sleep(700);
+			await sleep(500);
 		}
 }	
 
